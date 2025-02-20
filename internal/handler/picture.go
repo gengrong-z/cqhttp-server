@@ -14,8 +14,3 @@ func Sketchy(ctx *wscore.Context) error {
 	SetPicture(ctx, config.WHPath, config.Static.WHUrl)
 	return nil
 }
-
-func X18(ctx *wscore.Context) error {
-	SetPicture(ctx, config.X18Path, config.Static.WHUrl)
-	return nil
-}

@@ -4,7 +4,6 @@ package config
 
 var SavePath = "./.download/pixiv/"
 var WHPath = "./.download/wallhaven/"
-var X18Path = "./.download/x18/"
 
 var Static = struct {
 	PixivUrl string

@@ -13,8 +13,6 @@ func SocketHandler(ctx *gin.Context) {
 	router.All("pixiv", handler.Rank)
 	// wall_haven Sketchy等级随机
 	router.All("picture", handler.Sketchy)
-	// 色图
-	router.GroupTmp("18x", handler.X18)
 
 	// 协议升级,接入API
 	wscore.UpdateWebSocket(ctx, router)
